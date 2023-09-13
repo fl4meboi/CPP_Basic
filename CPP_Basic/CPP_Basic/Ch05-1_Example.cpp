@@ -1,23 +1,23 @@
-#include "io.h"
-
+ï»¿#include "io.h"
+/*
 void CountNumbers()
 {
     int Counter = 0;
-    cout << "¼ıÀÚ °³¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    cout << "ìˆ«ì ê°œìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ";
     cin >> Counter;
 
-    int Number[Counter]; // ¼±¾ğÇÏÀÚ¸¶ÀÚ ¿ÜºÎÀÔ·ÂÀ» ¹ŞÀ¸´Ï±î ±»ÀÌ ÃÊ±âÈ­ ¾ÈÇØµµ µÊ
-    for (int i = 0; i < Counter; i++) // i´Â "°³¼ö"±îÁö ¹İº¹µÊ 
+    int Number[Counter]; // ì„ ì–¸í•˜ìë§ˆì ì™¸ë¶€ì…ë ¥ì„ ë°›ìœ¼ë‹ˆê¹Œ êµ³ì´ ì´ˆê¸°í™” ì•ˆí•´ë„ ë¨
+    for (int i = 0; i < Counter; i++) // iëŠ” "ê°œìˆ˜"ê¹Œì§€ ë°˜ë³µë¨ 
     {
-        cout << "¼ıÀÚ µ¥ÀÌÅÍ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+        cout << "ìˆ«ì ë°ì´í„°ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ";
         cin >> Number[i];
     }
 
-    int FindNumber; // Ã£À» ¼ıÀÚ ÀÔ·Â
-    cout << "Ã£À» ¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    int FindNumber; // ì°¾ì„ ìˆ«ì ì…ë ¥
+    cout << "ì°¾ì„ ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ";
     cin >> FindNumber;
 
-    int FindCount = 0; // Ã£À» ¼ıÀÚ °¹¼ö ¼¼±â
+    int FindCount = 0; // ì°¾ì„ ìˆ«ì ê°¯ìˆ˜ ì„¸ê¸°
     for (int i = 0; i < Counter; i++)
     {
         if (Number[i] == FindNumber)
@@ -26,26 +26,26 @@ void CountNumbers()
         }
     }
 
-    cout << "Ã£´Â ¼öÀÇ °³¼ö´Â " << FindCount << "°³ ÀÔ´Ï´Ù.";
+    cout << "ì°¾ëŠ” ìˆ˜ì˜ ê°œìˆ˜ëŠ” " << FindCount << "ê°œ ì…ë‹ˆë‹¤.";
 
 
 }
 
 void LessNumber()
 {
-    // ¸ğµâÈ­
+    // ëª¨ë“ˆí™”
     int Counter = 0;
-    cout << "¼ıÀÚ °³¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    cout << "ìˆ«ì ê°œìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ";
     cin >> Counter;
 
-    int FindNumber; // Ã£À» ¼ıÀÚ ÀÔ·Â
-    cout << "±âÁØ ¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    int FindNumber; // ì°¾ì„ ìˆ«ì ì…ë ¥
+    cout << "ê¸°ì¤€ ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ";
     cin >> FindNumber;
 
-    int Number[Counter]; // ¼±¾ğÇÏÀÚ¸¶ÀÚ ¿ÜºÎÀÔ·ÂÀ» ¹ŞÀ¸´Ï±î ±»ÀÌ ÃÊ±âÈ­ ¾ÈÇØµµ µÊ
-    for (int i = 0; i < Counter; i++) // i´Â "°³¼ö"±îÁö ¹İº¹µÊ 
+    int Number[Counter]; // ì„ ì–¸í•˜ìë§ˆì ì™¸ë¶€ì…ë ¥ì„ ë°›ìœ¼ë‹ˆê¹Œ êµ³ì´ ì´ˆê¸°í™” ì•ˆí•´ë„ ë¨
+    for (int i = 0; i < Counter; i++) // iëŠ” "ê°œìˆ˜"ê¹Œì§€ ë°˜ë³µë¨ 
     {
-        cout << "¼ıÀÚ µ¥ÀÌÅÍ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+        cout << "ìˆ«ì ë°ì´í„°ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ";
         cin >> Number[i];
     }
 
@@ -61,37 +61,37 @@ void LessNumber()
 void MissingNumber()
 {
     int Counter = 0;
-    cout << "ÀüÃ¼ ÇĞ»ı ¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    cout << "ì „ì²´ í•™ìƒ ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ";
     cin >> Counter;
 
-    int FindNumber; // Ã£À» ¼ıÀÚ ÀÔ·Â
-    cout << "°úÁ¦¸¦ Á¦ÃâÇÏÁö ¾ÊÀº ÇĞ»ı ¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    int FindNumber; // ì°¾ì„ ìˆ«ì ì…ë ¥
+    cout << "ê³¼ì œë¥¼ ì œì¶œí•˜ì§€ ì•Šì€ í•™ìƒ ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ";
     cin >> FindNumber;
 
-    // ÀüÃ¼ ÇĞ»ı ¹øÈ£ µ¥ÀÌÅÍ set
+    // ì „ì²´ í•™ìƒ ë²ˆí˜¸ ë°ì´í„° set
     int TotalMember[Counter];
     for (int i = 0; i < Counter; i++)
     {
         TotalMember[i] = i + 1;
     }
 
-    // °úÁ¦ Á¦ÃâÇÑ ÇĞ»ı ¹øÈ£ set
+    // ê³¼ì œ ì œì¶œí•œ í•™ìƒ ë²ˆí˜¸ set
     int GoodStudent[Counter - FindNumber];
-    for (int i = 0; i < (Counter - FindNumber); i++) // °úÁ¦ ÇÑ ÇĞ»ı ¹øÈ£ ¹«ÀÛÀ§ ÀÔ·Â
+    for (int i = 0; i < (Counter - FindNumber); i++) // ê³¼ì œ í•œ í•™ìƒ ë²ˆí˜¸ ë¬´ì‘ìœ„ ì…ë ¥
     {
-        cout << "°úÁ¦¸¦ Á¦ÃâÇÑ ÇĞ»ıµéÀÇ Ãâ¼®¹øÈ£ µ¥ÀÌÅÍ¸¦ ÀÔ·ÂÇÏ½Ã¿À : ";
+        cout << "ê³¼ì œë¥¼ ì œì¶œí•œ í•™ìƒë“¤ì˜ ì¶œì„ë²ˆí˜¸ ë°ì´í„°ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : ";
         cin >> GoodStudent[i];
     }
 
-    // Á¦Ãâ È®ÀÎ¿ë ¹è¿­ º¯¼ö set
+    // ì œì¶œ í™•ì¸ìš© ë°°ì—´ ë³€ìˆ˜ set
     bool Check[Counter];
     for (int i = 0; i < Counter; i++)
     {
         Check[i] = false;
     }
 
-    // Á¦ÃâÇÑ ÇĞ»ı, ¹ÌÁ¦Ãâ ÇĞ»ı ±¸ºĞ - true/false·Î
-    for (int i = 0; i < (Counter - FindNumber); i++) // ±¸±¸´Ü ÇÔ¼ö¿Í °°Àº ¿ø¸®
+    // ì œì¶œí•œ í•™ìƒ, ë¯¸ì œì¶œ í•™ìƒ êµ¬ë¶„ - true/falseë¡œ
+    for (int i = 0; i < (Counter - FindNumber); i++) // êµ¬êµ¬ë‹¨ í•¨ìˆ˜ì™€ ê°™ì€ ì›ë¦¬
     {
         for (int j = 0; j < Counter; j++)
         {
@@ -102,13 +102,13 @@ void MissingNumber()
         }
     }
 
-    // ¹ÌÁ¦Ãâ ÇĞ»ı ¹øÈ£ »öÃâ
+    // ë¯¸ì œì¶œ í•™ìƒ ë²ˆí˜¸ ìƒ‰ì¶œ
     for (int i = 0; i < Counter; i++)
     {
         if (Check[i] == false)
         {
-            cout << i + 1 << "¹ø ¾È ³¿" << endl;
+            cout << i + 1 << "ë²ˆ ì•ˆ ëƒ„" << endl;
         }
     }
 
-}
+}*/

@@ -1,6 +1,3 @@
-// CPP_Basic.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include "Cpp_Basic.h"
 #include "io.h"
 
@@ -8,9 +5,10 @@
 
 int main()
 {
-    cout << "Bye World!\n";
+    // cout << "Bye World!\n";
 
-    void VariableTypeCharacter();
+    // void VariableTypeCharacter();
+    StringExtract();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -43,3 +43,4 @@ void MaxCount();
 void Enum();
 
 void TwoDimension();
+void StringExtract();
