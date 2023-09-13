@@ -44,3 +44,4 @@ void Enum();
 
 void TwoDimension();
 void StringExtract();
+void Dial();

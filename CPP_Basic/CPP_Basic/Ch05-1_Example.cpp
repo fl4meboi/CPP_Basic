@@ -1,5 +1,5 @@
 ﻿#include "io.h"
-/*
+
 void CountNumbers()
 {
     int Counter = 0;
@@ -111,4 +111,4 @@ void MissingNumber()
         }
     }
 
-}*/
+}

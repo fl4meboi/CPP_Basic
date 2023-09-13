@@ -8,7 +8,8 @@ int main()
     // cout << "Bye World!\n";
 
     // void VariableTypeCharacter();
-    StringExtract();
+    // StringExtract();
+    Dial();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

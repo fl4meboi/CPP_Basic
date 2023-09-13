@@ -2,6 +2,7 @@
 
 void StringExtract()
 {
+	/*
 	// 테스트 케이스의 개수
 	char Word[10];
 	int WordSize = sizeof(Word) - 1;
@@ -9,12 +10,9 @@ void StringExtract()
 	cout << "문자열을 입력해주세요 : ";
 	cin >> Word;
 
-	// 문자열의 맨 앞 & 맨 뒤 글자 추출 
-	// abidleg -> ag
-
 	cout << Word[0] << " / " << Word[];
-
-	/*
+	*/
+	
 	int InputWord; 
 
 	// 문자열 입력
@@ -28,5 +26,15 @@ void StringExtract()
 
 		cout << input[0] << " / " << input[input.length() - 1];
 	}
-	*/
+	
+}
+
+void Dial()
+{
+	// 알파벳과 숫자 묶기 
+	// 1 -> 2초 / 이후 숫자들은 1초씩 추가 
+	// n번 -> n+1초 걸림
+	// 
+
+
 }
