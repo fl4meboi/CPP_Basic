@@ -79,8 +79,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\Downloads\Guide.md">
-      <Filter>Source Files</Filter>
-    </None>
+    <None Include="guideguide.md" />
   </ItemGroup>
 </Project>
