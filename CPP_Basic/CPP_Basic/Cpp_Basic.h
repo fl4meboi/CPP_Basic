@@ -45,3 +45,8 @@ void Enum();
 void TwoDimension();
 void StringExtract();
 void Dial();
+
+void PointerDefine();
+void DynamicVariable();
+void BallInsert();
+void BallSwap();

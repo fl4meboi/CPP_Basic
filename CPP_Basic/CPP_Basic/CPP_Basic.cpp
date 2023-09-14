@@ -9,7 +9,11 @@ int main()
 
     // void VariableTypeCharacter();
     // StringExtract();
-    Dial();
+    // Dial();
+    // PointerDefine();
+    // DynamicVariable();
+    BallInsert();
+    // BallSwap();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

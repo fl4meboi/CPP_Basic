@@ -28,12 +28,17 @@ void AlphaNumber()
     int AlphaSize = sizeof(Alpha) - 1; // 대신 Alpha배열의 크기를 자동으로 함수로 지정
     // '\0'는 빼고 세어야 함 
 
-    int Check[AlphaSize]; // 숫자 출력
+    // 배열 변수 선언시 크기 인덱스는 변수로 지정할 수 없음
+    // C++ 컴파일 언어 -> 컴파일하는 시간에 배열 크기 결정(눈에 보이지 않는 실행) 
+    // 크기를 변수로 지정하면 크기를 지정할 수 없음 -> 숫자로 넣어야 함 
+    // int Check[AlphaSize]; // 숫자 출력
+    int* pCheck = new int[AlphaSize];
+
     for (int i = 0; i < AlphaSize; i++) // 이제 Alpha 배열 크기 함수를 넣으면 알아서 계산 
     {
-        Check[i] = -1; // false로 초기화 세팅 (없는 알파벳이면 -1 출력)
+        pCheck[i] = -1; // false로 초기화 세팅 (없는 알파벳이면 -1 출력)
     }
-
+    
     // word와 alpha를 check을 통해 비교
     for (int i = 0; i < WordSize; i++)
     {
@@ -41,9 +46,9 @@ void AlphaNumber()
         {
             if (Word[i] == Alpha[j])
             {
-                if (Check[j] == -1)
+                if (pCheck[j] == -1)
                 {
-                    Check[j] = i;
+                    pCheck[j] = i;
                 }
             }
         }
@@ -54,7 +59,7 @@ void AlphaNumber()
 
     for (int i = 0; i < AlphaSize; i++)
     {
-        cout << Check[i] << " ";
+        cout << pCheck[i] << " ";
     }
     // 끝에 나오는 쓰레기값은 내일 해결 
     // 과제 안 낸 사람 문제와 같은 패턴 
