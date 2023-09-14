@@ -1,28 +1,33 @@
-프로그래밍(네이밍) 표기법
-* 프로그래밍 언어에서는 대소문자 구분
-* 가독성과 연관
-* 변수, 함수, 클래스 등의 이름 정할 때 여러 개의 영단어를 사용할 때 각각의 단어를 구분
-* 일반적인 문장 : unreal engine function variable 
+# 프로그래밍(네이밍) 표기법
+
+- 프로그래밍 언어에서는 대소문자 구분
+- 가독성과 연관
+- 변수, 함수, 클래스 등의 이름 정할 때 여러 개의 영단어를 사용할 때 각각의 단어를 구분
+
+#### 일반적인 문장 : unreal engine function variable 
 
 - Snake Case : unreal_engine_funcion_variable 
 - Kebab Case : unreal-engine-funcion-variable 
 - Camel Case : unrealEngineFuncionVariable
 - Pascal Case : UnrealEngineFuncionVariable
 
-명령어, 예약어 
+## 명령어, 예약어 
+
 - C++에서 명령어로 사용되기로 정해져있는 구문
 - 변수, 함수의 이름을 명명할 때 예약어와 중복되지 않도로 이름을 명명하여야 함
 
-주석
+
+#### 주석 
 - 실행되지 않는 부분
 
-데이터 종류 
+#### 데이터 종류 
 - 숫자
-  - 정수형 타입
-  - 실수형 타입 
+    * 정수형 타입
+    * 실수형 타입 
 - 문자
 
-bit, byte 
+## bit, byte 
+
 8 bit -> 1 byte 
 - bit : 컴퓨터 데이터의 최소 단위
 - byte : 컴퓨터 데이터 의미의 최소 단위
