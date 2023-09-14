@@ -199,7 +199,67 @@ parameter(형식매개변수)와 arguement(실제매개변수)
 
     - 객체 / 인스턴스 
       - 클래스를 통해서 생성된 실체 (사실 실체가 없음) -> type이 됨 
-      ![Alt text](C:\Users\ASUS\Pictures\Screenshots)
+      
+
+### 선언
+#### 구조체 선언
+
+``` 
+struct Car  // Car라는 type을 만든 행위
+{
+    char name[30];
+    char model[30];
+    int year;
+    int TireSize;
+    char Color[30];
+}
+
+void Drive(char name[30]){}
+void Break(char name[30]){}
+void Parking(char name[30]){}
+void Rear(char name[30]){}
+
+Car BMW = { "X7", "xDrive40i", 2023, 23, "Blue" }
+
+Car Jeep = { "Rubicon", "Mountain", 2021, 26, "Yellow" }
+
+cout << BMW.year << endl;   // year는 BMW꺼다 
+
+cout << Jeep.year << endl; 
+
+Drive("X7");    // 함수와 구조체 변수는 서로 아무런 관계 없음. 시내버스
+                // 시내버스에 X7 태운 거임 
+
+Drive("Rubicon");
+```
+
+#### 클래스 선언
+
+```
+class Car       // 설계도 
+{
+    char name[30];
+    char model[30];
+    int year;
+    int TireSize;
+    char Color[30];
+
+    void Drive(){}
+    void Break(){}
+    void Parking(){}
+    void Rear(){}
+    // 이게 struct와 class의 가장 큰 차이
+}
+
+Car Sonata;
+cout << Sonata.year << endl;
+Sonata.Drive();     // 여기서 Drive는 Sonata꺼임. 자가용
+
+Car Ray;
+cout << Ray.year << endl;
+Ray.Drive();        // 여기 Drive 역시 Ray의 자가용. 
+// 여기서 Drive는 Sonata와 Ray에 맞게 customize 가능 
+```
 
 
 
