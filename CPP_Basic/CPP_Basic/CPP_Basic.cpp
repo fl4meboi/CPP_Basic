@@ -3,6 +3,8 @@
 
 #define PLUS (2 + 3)
 
+#include "Ch10_Class.h"
+
 int main()
 {
     // cout << "Bye World!\n";
@@ -12,8 +14,12 @@ int main()
     // Dial();
     // PointerDefine();
     // DynamicVariable();
-    BallInsert();
+    // BallInsert();
     // BallSwap();
+    Car Sonata(80);
+
+    Sonata.DriveTime();
+    Sonata.DriveVelocity();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

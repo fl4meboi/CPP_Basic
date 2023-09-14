@@ -1,4 +1,5 @@
 #pragma once
+
 void OvenTime();
 void Quadrant();
 void LeapYear();
