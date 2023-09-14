@@ -73,7 +73,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Guide.md">
+    <None Include="..\..\..\..\Downloads\Guide.md">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
