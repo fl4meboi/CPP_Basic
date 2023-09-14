@@ -199,7 +199,7 @@ parameter(형식매개변수)와 arguement(실제매개변수)
 
     - 객체 / 인스턴스 
       - 클래스를 통해서 생성된 실체 (사실 실체가 없음) -> type이 됨 
-      ![Alt text](https://img.freepik.com/premium-photo/fire-alphabet-letter-i-isolated-black-background_564276-9241.jpg?w=2000)
+     
 
 
 
