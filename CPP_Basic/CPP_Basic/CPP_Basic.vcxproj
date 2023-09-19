@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Downloads\CPPBasic\Ch02_Operation.cpp" />
     <ClCompile Include="..\..\..\..\Downloads\CPPBasic\Ch03_Statement.cpp" />
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Arithmatic.cpp" />
+    <ClCompile Include="Atv.cpp" />
+    <ClCompile Include="Auto.cpp" />
+    <ClCompile Include="Bike.cpp" />
     <ClCompile Include="Ch01_Variable.cpp" />
     <ClCompile Include="Ch04-1_Example.cpp" />
     <ClCompile Include="Ch04-2_Example.cpp" />
@@ -144,11 +149,18 @@
     <ClCompile Include="Ch10_Class.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
     <ClCompile Include="MiniProject_02.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Arithmatic.h" />
+    <ClInclude Include="Atv.h" />
+    <ClInclude Include="Auto.h" />
+    <ClInclude Include="Bike.h" />
     <ClInclude Include="Ch10_Class.h" />
     <ClInclude Include="Cpp_Basic.h" />
     <ClInclude Include="io.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="guideguide.md" />

@@ -1,2 +1,5 @@
-﻿  Ch10_Class.cpp
-  CPP_Basic.vcxproj -> C:\Users\ASUS\Cpp_PL\CPP_Basic\CPP_Basic\x64\Debug\CPP_Basic.exe
+﻿  Auto.cpp
+C:\Users\ASUS\Cpp_PL\CPP_Basic\CPP_Basic\CPP_Basic\Auto.cpp(7,24): error C2065: '_Year': undeclared identifier
+C:\Users\ASUS\Cpp_PL\CPP_Basic\CPP_Basic\CPP_Basic\Auto.cpp(7,31): error C2065: '_Price': undeclared identifier
+  Vehicle.cpp
+  Generating Code...
